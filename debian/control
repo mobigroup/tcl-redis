@@ -1,0 +1,16 @@
+Source: tcl-redis
+Section: devel
+Priority: optional
+Maintainer: Alexey Pechnikov (MBG) <pechnikov@mobigroup.ru>
+Build-Depends: cdbs (>= 0.4.15), debhelper (>= 4.1.16)
+Standards-Version: 3.8.3
+
+Package: tcl-redis
+Section: misc
+Architecture: all
+Description: Persistent key-value database with network interface (Tcl library)
+ Redis is a key-value database in a similar vein to memcache but the dataset is non-volatile. Redis additionally provides native support for atomically manipulating and querying data structures such as lists and sets.
+ .
+ The dataset is stored entirely in memory and periodically flushed to disk.
+ .
+ This package contains Tcl bindings to Redis.

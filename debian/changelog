@@ -1,0 +1,17 @@
+tcl-redis (2012.02.04) unstable; urgency=low
+
+  * Internationalization support.
+
+ -- Alexey Pechnikov <pechnikov@mobigroup.ru>  Sat, 04 Feb 2012 14:07:23 +0400
+
+tcl-redis (2011.03.28) unstable; urgency=low
+
+  * Check compbility with redis 2.2. No changes to package.
+
+ -- Alexey Pechnikov <pechnikov@mobigroup.ru>  Mon, 28 Mar 2011 16:51:56 +0400
+
+tcl-redis (2010.12.16) unstable; urgency=low
+
+  * Initial release
+
+ -- Alexey Pechnikov <pechnikov@mobigroup.ru>  Thu, 16 Dec 2010 07:24:43 +0300

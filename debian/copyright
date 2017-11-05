@@ -1,0 +1,8 @@
+Mainteined by Alexey Pechnikov <pechnikov@mobigroup.ru>
+
+URL: https://github.com/antirez/redis/blob/master/tests/support/redis.tcl
+
+Tcl clinet library - used by test-redis.tcl script for now
+
+Copyright (C) 2009 Salvatore Sanfilippo
+Released under the BSD license like Redis itself.

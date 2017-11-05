@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/buildcore.mk
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/rules/simple-patchsys.mk
+
+common-install-indep::
+	install -d debian/tcl-redis/usr/share/tcltk/redis/
+	install -m 644 *.tcl debian/tcl-redis/usr/share/tcltk/redis/
